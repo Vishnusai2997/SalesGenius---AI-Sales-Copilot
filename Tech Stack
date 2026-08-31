@@ -1,0 +1,85 @@
+
+## Tech Stack
+
+- **Backend:** Python, Slack Bolt
+- **CRM:** Salesforce API, OAuth 2.0
+- **AI:** Claude API (Anthropic)
+- **Deployment:** [Your deployment platform]
+
+## Setup
+
+### Prerequisites
+- Python 3.10+
+- Salesforce Trailhead Playground
+- Slack Workspace (admin access)
+- Claude API key
+
+### Installation
+
+1. **Clone repository**
+```bash
+git clone https://github.com/yourusername/salesforce-ai-assistant.git
+cd salesforce-ai-assistant
+```
+
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Configure environment**
+```bash
+cp .env.example .env
+# Edit .env with your credentials
+```
+
+4. **Run the bot**
+```bash
+python slack_bot.py
+```
+
+## Architecture
+
+[Diagram showing: Slack → Bot → Salesforce API + Claude API → Response]
+
+## How It Works
+
+1. **Rep mentions bot in Slack** with opportunity ID
+2. **Bot queries Salesforce** for opportunity details
+3. **Claude AI analyzes** the deal data
+4. **Bot responds in Slack** with insights & action buttons
+5. **Rep clicks button** (create task, update notes)
+6. **Bot executes action** in Salesforce
+7. **Confirmation sent** back to Slack
+
+## File Structure
+
+- `slack_bot.py` - Main Slack bot logic
+- `salesforce_client.py` - Salesforce API wrapper
+- `claude_analyzer.py` - Claude AI integration
+- `config.py` - Configuration management
+
+## What I Learned
+
+✅ Salesforce API authentication & REST integration
+✅ Claude AI integration for intelligent analysis
+✅ Slack Bot development (Slack Bolt framework)
+✅ Bidirectional data sync
+✅ OAuth 2.0 authentication flows
+✅ Full-stack integration architecture
+
+## Future Enhancements
+
+- [ ] Web dashboard for opportunity browsing
+- [ ] Custom scoring models
+- [ ] Team collaboration features
+- [ ] Salesforce object support (Accounts, Leads, Contacts)
+- [ ] Advanced reporting
+
+## Contact
+
+[Your LinkedIn] | [Your Email]
+
+---
+
+**Built with ❤️ by [Your Name]**
