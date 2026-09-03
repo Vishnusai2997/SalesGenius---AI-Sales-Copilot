@@ -22,4 +22,4 @@ opportunity analysis and deal action execution.**
 - Create tasks, update notes, schedule follow-ups
 - All without leaving Slack
 
-## Quick Demo
+
