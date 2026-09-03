@@ -10,7 +10,7 @@
 
 ### Prerequisites
 - Python 3.10+
-- Salesforce Trailhead Playground
+- Salesforce Trailhead Playground / Can be a your own Salesforce Org
 - Slack Workspace (admin access)
 - Claude API key
 
@@ -61,7 +61,7 @@ python slack_bot.py
 
 ## What I Learned
 
-✅ Salesforce API authentication & REST integration
+✅ Salesforce API authentication & REST integration ( If you try it on Trailhead playground, Username and password should be good enough)
 ✅ Claude AI integration for intelligent analysis
 ✅ Slack Bot development (Slack Bolt framework)
 ✅ Bidirectional data sync
